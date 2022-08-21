@@ -1,11 +1,10 @@
 import './App.css';
-import Counter from "./components/Counter";
-import Profile from "./components/Profile";
+import Counter from './components/Counter';
 
 function App() {
   return (
-    <div className="App">
-        <Profile name="Iván" lastname="Moreno"/>
+    <div className='container'>
+      <Counter/>
     </div>
   );
 }
