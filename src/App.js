@@ -1,10 +1,10 @@
 import './App.css';
-import ConditionalComponent from './components/ConditionalComponent';
+import Product from "./components/Product";
 
 function App() {
   return (
     <div className='container'>
-      <ConditionalComponent/>
+      <Product/>
     </div>
   );
 }
