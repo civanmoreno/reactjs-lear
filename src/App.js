@@ -1,10 +1,10 @@
 import './App.css';
-import Counter from './components/Counter';
+import ConditionalComponent from './components/ConditionalComponent';
 
 function App() {
   return (
     <div className='container'>
-      <Counter/>
+      <ConditionalComponent/>
     </div>
   );
 }
